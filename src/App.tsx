@@ -39,11 +39,13 @@ export default function App() {
   return (
     <>
       <Container>
-        <QuizContainer>
-          {isShown && <Welcome onWelcomeModalHandler={welcomeModalHandler} />}
-          {/* {!isShown && <QuizListReducer />} */}
-          {!isShown && <QuizList />}
-        </QuizContainer>
+        <main>
+          <QuizContainer>
+            {isShown && <Welcome onWelcomeModalHandler={welcomeModalHandler} />}
+            {/* {!isShown && <QuizListReducer />} */}
+            {!isShown && <QuizList />}
+          </QuizContainer>
+        </main>
       </Container>
     </>
   );
