@@ -20,6 +20,8 @@ It is a simple quiz app that outputs 5 different questions which in turn, is abl
 
 Data is fetched from the Open Trivia API.
 
+To see my old commit histories (due to my old repo having problems), please [click here](https://github.com/kebin20/old-quizzical).
+
 ### Links
 
 - Solution URL: [Github Repo](https://github.com/kebin20/quizzical)
